@@ -1,0 +1,185 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+#pageContainer {
+
+    width: 75%;
+    background-color: white;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100px;
+    width: 100%;
+    font-size: 18px;
+    background-color: #1F2937;
+}
+
+nav {
+    font-size: 1.5rem;
+
+
+}
+
+#pageLogo {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+h1 {
+
+    color: #F9FAF8;
+    font-size: 48px;
+    margin-bottom: 0%;
+
+}
+
+button {
+    background-color: #3882F6;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 15px;
+
+
+}
+
+button:hover {
+
+    background-color: rgb(109, 109, 247);
+    border: black solid 2px;
+}
+
+#heroSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 450px;
+    background-color: #1F2937;
+}
+
+
+
+#headerText {
+    display: flex;
+    font-size: 32px;
+    justify-content: center;
+    color: #1F2937;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+#heroText {
+
+    padding-bottom: 10px;
+}
+
+
+
+#figureContainer {
+
+    display: flex;
+
+    justify-content: center;
+    min-height: 400px;
+
+}
+
+figcaption {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.infoImg {
+
+    border: #3882f6 solid 5px;
+    border-radius: 15%;
+    width: 200px;
+    height: 200px;
+
+}
+
+#quotes {
+    display: flex;
+    min-height: 400px;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+#callToAction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+
+}
+
+#ctaBanner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882F6;
+    width: 60%;
+    min-height: 180px;
+    border-radius: 10px;
+    color: white;
+}
+
+#ctaSignUpButton {
+
+    border: white solid 2px;
+}
+
+p {
+
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    min-height: 100px;
+    background-color: #1F2937;
+    font-size: 22px;
+}
